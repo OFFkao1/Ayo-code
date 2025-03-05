@@ -1,0 +1,225 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e1708;
+}
+.logo span{
+    font-size: 34px;
+    font-weight: bold;
+    color: #57331b;
+    border-radius: 50%;
+    background: #e0dcdc;
+}
+.pet{
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #502d16;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #502d16;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.hero-images {
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.hero-images img {
+    width: 80%;
+    height: auto;
+}
+
+.sub-text {
+    font-size: 16px;
+    color: #444;
+    margin-top: 20px;
+    width: 570px;
+    text-align: center;
+}
+.aop{
+   width: 300px;
+}
+
+
+.services {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.services h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #502d16;
+    margin-bottom: 30px;
+}
+
+.services h2 span {
+    color: #d4a373;
+}
+
+
+.service-box {
+    margin-top: 10px;
+    padding: 50px;
+    color: #302302;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.skin-treatments {
+    background: url('image1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.products {
+    background: url('image2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.appointments {
+    background: url('image3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.deep-treatments {
+    background: url('image4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+footer {
+    background-color: #b6a278;
+    color: white;
+    padding: 20px 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.footer-left,
+.footer-right {
+    width: 45%;
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+/* Links */
+.footer-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: rgba(64, 55, 2, 0.993);
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+
+}
+.hh:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.45s;
+}
+.ss:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.45s;
+}
+.pp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.45s;
+}
+.ca:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.45s;
+}
