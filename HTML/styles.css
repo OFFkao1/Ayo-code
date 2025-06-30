@@ -28,7 +28,7 @@ header {
     border-radius: 50%;
     background: #e0dcdc;
 }
-.pet{
+.animal{
     text-decoration: underline;
 }
 
@@ -73,12 +73,12 @@ nav ul li a:hover {
     max-width: 500px;
 }
 
-.hero-images {
+.hero-picture {
     gap: 15px;
     margin-top: 20px;
 }
 
-.hero-images img {
+.hero-picture img {
     width: 80%;
     height: auto;
 }
@@ -211,7 +211,7 @@ footer {
 .ss:hover{
     cursor: pointer;
     text-decoration: underline;
-    transition: 0.45s;
+    transition: 0.89s;
 }
 .pp:hover{
     cursor: pointer;
